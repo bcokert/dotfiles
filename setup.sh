@@ -3,6 +3,8 @@ cp .aliases ~/.aliases
 cp .vimrc ~/.vimrc
 cp .osx ~/.osx
 cp .gitconfig ~/.gitconfig
+cp .tmux.conf ~/.tmux.conf
+cp -r .claude ~/.claude
 cp -r .vim ~/.vim
 mkdir -p ~/.vim/backups
 mkdir -p ~/.vim/swaps
