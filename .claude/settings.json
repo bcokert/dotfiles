@@ -1,0 +1,35 @@
+{
+  "env": {
+    "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1",
+    "CLAUDE_CODE_DISABLE_TERMINAL_TITLE": "1"
+  },
+  "statusLine": {
+    "type": "command",
+    "command": "bash /Users/bdon/.claude/statusline.sh"
+  },
+  "effortLevel": "high",
+  "permissions": {
+    "allow": [
+      "Bash",
+      "Read(*)",
+      "Edit(*)",
+      "Write(*)",
+      "Glob",
+      "Grep",
+      "WebFetch",
+      "WebSearch",
+      "Skill",
+      "mcp__atlassian",
+      "mcp__slack",
+      "mcp__sentry",
+      "mcp__google-calendar",
+      "mcp__notion",
+      "mcp__github",
+      "mcp__fellow",
+      "mcp__granola"
+    ],
+    "additionalDirectories": [
+      "/Users/bdon/.claude"
+    ]
+  }
+}
