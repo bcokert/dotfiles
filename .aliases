@@ -7,10 +7,6 @@ alias guts="git s"
 
 # Shortcuts
 alias g="git"
-alias k="kubectl"
-alias kd="kubectl --context=dev"
-alias ks="kubectl --context=staging"
-alias kp="kubectl --context=production"
 alias deqq="sed -e 's/\\\\\"/\\\"/g' | sed -e 's/\\\\\\\\n/\\\\n/g'"
 alias nice='pbpaste | jq "" | pbcopy'
 alias niceq='pbpaste | deqq | jq "" | pbcopy'

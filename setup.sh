@@ -4,6 +4,9 @@ cp .vimrc ~/.vimrc
 cp .osx ~/.osx
 cp .gitconfig ~/.gitconfig
 cp -r .vim ~/.vim
+mkdir -p ~/.vim/backups
+mkdir -p ~/.vim/swaps
+mkdir -p ~/.vim/undo
 
 echo "If you don't have brew yet, make sure to install!"
 echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zshrc
