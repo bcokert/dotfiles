@@ -4,8 +4,10 @@ cp .vimrc ~/.vimrc
 cp .osx ~/.osx
 cp .gitconfig ~/.gitconfig
 cp .tmux.conf ~/.tmux.conf
-cp -r .claude ~/.claude
-cp -r .vim ~/.vim
+mkdir -p ~/.claude
+cp -r .claude/* ~/.claude
+mkdir -p ~/.vim
+cp -r .vim/* ~/.vim
 mkdir -p ~/.vim/backups
 mkdir -p ~/.vim/swaps
 mkdir -p ~/.vim/undo
